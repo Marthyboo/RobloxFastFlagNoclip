@@ -28,8 +28,7 @@
 }
 ```
 
- "DFIntDebugSimPrimalStiffness": "1" -- this is the main thing, the default of it is 0, however, at 0, some stuff FALLS into the floor, try yourself on games with objects, you've probably seen this yourself
-so, just modify it to 1 or even 10 and over, but the higher the number the more slower you go through the wall, a good balance is probably 1-5 or 5-7 
+dfintdebugsimprimalstiffness: "1" is the main part of the noclip. by default, its 0, but at that level, objects can fall through the floor, which you've probably seen in games. set it to 1 or higher (like 10) to fix that, though higher values make objects move through walls slower. a good range is around 1-5 or 5-7 for a balance.
 
 also incase you don't understand how this even works, DFIntDebugSimPrimalStiffness setting controls how stiff objects are in the simulation. a value of 0 means objects are very flexible and easy to bend or deform.
 
