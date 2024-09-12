@@ -18,3 +18,13 @@
 ###### Do note that after roblox updates you have to do this process again
 
 [Watch a Video Tutorial](https://streamable.com/rk5an6)
+
+
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntMaximumFreefallMoveTimeInTenths": "1000",
+    "DFIntDebugSimPrimalStiffness": "5"
+}
+
+ "DFIntDebugSimPrimalStiffness": "1" -- this is the main thing, the default of it is 0, however, at 0, some stuff FALLS into the floor, try yourself on games with objects, you've probably seen this yourself
+so, just modify it to 1 or even 10 and over, but the higher the number the more slower you go through the wall, a good balance is probably 1-5 or 5-7 
