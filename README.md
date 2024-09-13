@@ -23,7 +23,7 @@ also incase you don't understand how this even works, DFIntDebugSimPrimalStiffne
 
 
 ###  NoClip For Car Games
-the other noclip makes cars fall like quicksand no matter what, so just use this
+the other noclip makes cars fall like quicksand no matter what, so just use this for any games with cars
 ```
 {
   "DFIntAssemblyExtentsExpansionStudHundredth": "-50",
