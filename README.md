@@ -21,3 +21,15 @@ dfintdebugsimprimalstiffness: "1" is the main part of the noclip. by default, it
 
 also incase you don't understand how this even works, DFIntDebugSimPrimalStiffness setting controls how stiff objects are in the simulation. a value of 0 means objects are very flexible and easy to bend or deform.
 
+
+###  NoClip For Car Games
+the other noclip makes cars fall like quicksand no matter what, so just use this
+```
+{
+  "DFIntAssemblyExtentsExpansionStudHundredth": "-50",
+  "FIntPGSPenetrationMarginMax": "2147483647",
+  "DFIntMaximumFreefallMoveTimeInTenths": "1000",
+  "FFlagDebugSimDefaultPrimalSolver": "True",
+  "FIntPGSPenetrationMarginMin": "2147483647"
+}
+``` 
