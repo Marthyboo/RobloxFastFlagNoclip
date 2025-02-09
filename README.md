@@ -11,8 +11,9 @@
 # The Noclip Below no longer works, However There is an alternative, But it sucks as an alternative. 
 
 ```
-{ "FIntPGSPenetrationMarginMax": "2147483647", "FIntPGSPenetrationMarginMin": "2147483647", "DFIntAssemblyExtentsExpansionStudHundredth": "-50" }
-
+{ "FIntPGSPenetrationMarginMax": "2147483647",
+ "FIntPGSPenetrationMarginMin": "2147483647",
+"DFIntAssemblyExtentsExpansionStudHundredth": "-50" }
 ```
 - FIntPGSPenetrationMarginMax ("2147483647"): the maximum penetration margin between objects, effectively removing any limit with maximum int number
 - FIntPGSPenetrationMarginMin ("2147483647"):  almost the same thing, the minimum penetration margin, but instead keeps objects from being too close
