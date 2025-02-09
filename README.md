@@ -8,7 +8,21 @@
 
 <img src="/assets/tutorial260.gif" width="750"/>
 
-###  Better NoClip Modified
+# The Noclip Below no longer works, However There is an alternative, But it sucks as an alternative. 
+
+```
+{ "FIntPGSPenetrationMarginMax": "2147483647", "FIntPGSPenetrationMarginMin": "2147483647", "DFIntAssemblyExtentsExpansionStudHundredth": "-50" }
+
+```
+- FIntPGSPenetrationMarginMax ("2147483647"): the maximum penetration margin between objects, effectively removing any limit with maximum int number
+- FIntPGSPenetrationMarginMin ("2147483647"):  almost the same thing, the minimum penetration margin, but instead keeps objects from being too close
+- The main noclip, DFIntAssemblyExtentsExpansionStudHundredth ("-50"): adjusts the extent of an object like a wall, modified with a negative value
+
+
+
+
+
+###  Better NoClip Modified [Patched]
 ```
 {
     "FFlagDebugSimDefaultPrimalSolver": "True",
@@ -22,7 +36,7 @@ dfintdebugsimprimalstiffness: "1" is the main part of the noclip. by default, it
 also incase you don't understand how this even works, DFIntDebugSimPrimalStiffness setting controls how stiff objects are in the simulation. a value of 0 means objects are very flexible and easy to bend or deform.
 
 
-###  NoClip For Car Games
+###  NoClip For Car Games [Patched]
 the other noclip makes cars fall like quicksand no matter what, so just use this for any games with cars
 ```
 {
